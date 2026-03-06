@@ -1,27 +1,39 @@
 # Jarvis AI Voice Assistant
 
-Jarvis is a Python-based voice assistant that can execute commands, retrieve information, and interact with AI models using voice input.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+
+Jarvis is a Python-based voice assistant that executes commands, retrieves information, and interacts with AI services using voice input. It integrates speech recognition, text-to-speech synthesis, external APIs, and automation features to perform tasks such as opening websites, playing media, retrieving news, and generating AI-powered responses.
 
 ## Features
 
-- Voice activation using speech recognition
-- AI-generated responses using OpenAI
-- YouTube video search and playback
-- Latest news retrieval
-- Screenshot automation
-- Browser automation
-- Text-to-speech voice responses
-- Custom deep male voice using Piper TTS
+- Voice-activated command system using SpeechRecognition
+- AI-generated responses powered by OpenAI API
+- Media playback through YouTube Data API
+- Real-time news retrieval via NewsData API
+- Website automation through voice commands
+- Screenshot capture automation
+- Natural-sounding text-to-speech using Piper TTS
+- Interactive conversational assistant workflow
 
 ## Technologies Used
 
+**Programming Language**
 - Python
+
+**APIs**
 - OpenAI API
+- YouTube Data API v3
+- NewsData API
+
+**Libraries & Tools**
 - SpeechRecognition
+- Piper TTS
 - PyAutoGUI
 - Pygame
 - Requests
-- gTTS
+- Pydub
 
 ## Project Structure
 
@@ -39,12 +51,18 @@ jarvis-ai-assistant/
 │   └── alan-medium.onnx.json
 ```
 
+## Requirements
+
+- Python 3.9 or higher
+- A working microphone for voice input
+- Internet connection for API requests
+
 ## Installation
 
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/jarvis-ai-assistant.git
+git clone https://github.com/ttayubudeen/jarvis-ai-assistant.git
 ```
 
 2. Navigate into the project folder
