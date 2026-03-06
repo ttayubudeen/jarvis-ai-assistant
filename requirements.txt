@@ -1,0 +1,10 @@
+SpeechRecognition
+PyAudio
+PyAutoGUI
+pygame
+pydub
+requests
+openai
+gTTS
+piper-tts
+python-dotenv
