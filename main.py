@@ -14,9 +14,6 @@ from config import openai_api_key
 from config import google_api_key
 from config import news_api_key
 
-# requirement , ask for what to put in requirement.txt
-
-
 
 # backup TTS
 def speak_old(text):
@@ -172,7 +169,7 @@ sites = {
         }
 
 
-
+# command process func
 def processCommand(c):
     try:
         command = c.lower().strip()
